@@ -96,3 +96,9 @@ From http://plugins.jquery.com.dev/wp-admin/
 
 8. `node src/wp-update.js`
     * This is intended to run as a long running processes, monitored by a system such as monit.
+
+
+### TESTS
+
+Tests are made with Jasmine. Dependencies are included in the vendor folder.
+To run all tests, just open the file test/SpecRunner.html in a browser with Javascript capabilities.
