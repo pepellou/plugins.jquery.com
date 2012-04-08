@@ -9,4 +9,20 @@ describe("The github service", function () {
 		expect( dirname(dirName + '/' + fileName) ).toEqual(dirName);
 	});
 
+	it("has an extend() function that works like the jquery extend method but not returning a value", function () {
+		var anObject = {
+			aField: "aValue",
+			anotherField: "anotherValue"
+		}
+		var anotherObject = {
+			aField: "aNewValue",
+			aNewField: "anotherDistinctValue"
+		}
+		var extendedObject = jQuery.extend({}, anObject, anotherObject);
+
+		extend(anObject, anotherObject);
+
+		expect( anObject ).toEqual( extendedObject );
+	});
+
 });
