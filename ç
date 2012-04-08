@@ -1,0 +1,20 @@
+Set up tests with Jasmine.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD^1 <file>..." to unstage)
+#
+#	modified:   README.md
+#	new file:   test/SpecRunner.html
+#	new file:   test/service/githubSpec.js
+#	new file:   vendor/jasmine-1.1.0/MIT.LICENSE
+#	new file:   vendor/jasmine-1.1.0/jasmine-html.js
+#	new file:   vendor/jasmine-1.1.0/jasmine.css
+#	new file:   vendor/jasmine-1.1.0/jasmine.js
+#	new file:   vendor/jasmine-1.1.0/jasmine_favicon.png
+#	new file:   vendor/jquery-1.7.1.min.js
+#
